@@ -1,0 +1,470 @@
+/* Start Common CSS Styling*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    background-color: #ffc712;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+h4,
+h5,
+h6,
+a {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* End  Common CSS Styling */
+
+/* Start Common Section  CSS Styling */
+
+.sectionHeading h2 {
+    font-size: 32px;
+    color: #0f2f44;
+}
+
+.sectionHeading h6 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+
+.sectionHeading p {
+    font-size: 16px;
+    color: #0f2f44;
+    line-height: 24px;
+    padding: 30px 0;
+}
+
+.sectionDetails h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #222222;
+}
+
+.sectionDetails p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 24px;
+}
+
+/* End  Common Section Style CSS Styling */
+
+/* Start Top Bar  CSS Styling */
+#topBarSection {
+    background-color: #0f2f44;
+    color: #ffffff;
+    padding: 17px 0;
+}
+
+#topBarSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topBarSection p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* End Top Bar CSS Styling */
+
+/* Start Header Section CSS Styling */
+#headerSection {
+    background-color: #ffffff;
+}
+
+#headerSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerSection a {
+    background: none;
+    display: inline-block;
+    padding: 41px 19px;
+    font-size: 16px;
+    color: #222222;
+    line-height: 24px;
+}
+
+#headerSection a:hover {
+    padding: 41px 13px;
+    background-color: #fff9e6;
+    color: #ffc712;
+    font-weight: bold;
+}
+
+#headerSection ul.iconBar img {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+/* Start Header Section CSS Styling */
+
+
+/* Start Main Section CSS Styling */
+
+/* Start Bannar Section CSS Styling */
+#bannarSection {
+    background-color: #e0eeff;
+}
+
+#bannarSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bannarSection .bg_image {
+    background: url(./../image/bannar_section_image1.png) bottom right/65% no-repeat;
+}
+
+#bannarSection .item1 {
+    padding: 140px 0;
+    width: 40%;
+}
+
+#bannarSection h4 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #0f2f44;
+    line-height: 70px;
+}
+
+#bannarSection h1 {
+    font-size: 80px;
+    color: #0f2f44;
+    line-height: 70px;
+}
+
+#bannarSection h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 19px;
+    color: #8484bf;
+}
+
+#bannarSection p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+    padding: 30px 0;
+}
+
+#bannarSection ul li:last-child a {
+    all: initial;
+    display: inline-block;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 230px;
+
+}
+
+/* End Bannar Section CSS Styling */
+
+
+/* Start About Section CSS Styling */
+#aboutSection {
+    padding: 100px 0;
+}
+
+#aboutSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutSection .item {
+    width: calc((100% - 30px) / 2);
+}
+
+#aboutSection .sectionDetails p {
+    line-height: 44px;
+    color: #0f2f44;
+    padding: 0 30px;
+}
+
+#aboutSection ul>li>a {
+    display: inline-block;
+    margin: 35px 0;
+}
+
+#aboutSection li:last-child a {
+    margin-right: 230px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 10px 10px #e3e3e3;
+}
+
+/* End About Section CSS Styling */
+
+
+/* Start Skill Section CSS Styling */
+#skillSection {
+    padding: 95px 0;
+    text-align: right;
+}
+
+#skillSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skillSection .item {
+    width: calc((100% - 30px) / 2);
+}
+
+#skillSection .item>img {
+    width: 110%;
+
+}
+
+#skillSection .sectionDetails .innerItem:first-child {
+    width: calc(90% - 65px);
+    padding-left: 65px;
+}
+
+#skillSection .sectionDetails .innerItem:last-child img {
+    padding: 15px;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: -2px 5px 5px 10px #e2e2e2;
+}
+
+#skillSection .sectionDetails .innerItem progress {
+    width: 100%;
+    direction: rtl;
+}
+
+#skillSection .sectionDetails .progressBar:nth-child(1) progress {
+    accent-color: #294795;
+}
+
+#skillSection .sectionDetails .progressBar:nth-child(2) progress {
+    accent-color: #5d3b15;
+}
+
+#skillSection .sectionDetails .progressBar:nth-child(3) progress {
+    accent-color: #33491f;
+}
+
+#skillSection .sectionDetails .progressBar:nth-child(4) progress {
+    accent-color: #39295f;
+}
+
+/* End Skill Section CSS Styling */
+
+
+/* Start Service Section  CSS Styling*/
+#serviceSection {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+
+#serviceSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#serviceSection .sectionHeading {
+    text-align: center;
+}
+
+#serviceSection .sectionDetails {
+    padding-top: 56px;
+    padding-bottom: 20px;
+}
+
+#serviceSection .item {
+    position: relative;
+    width: calc((100% - 60px) / 3);
+    border-radius: 5px;
+    background-color: #e9e9e9;
+}
+
+#serviceSection .item .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#seviceSection .innerItem {
+    padding: 30px 20px;
+    background-color: #0f2f44;
+}
+
+#serviceSection .innerItem:first-child {
+    width: 40%;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#serviceSection .innerItem:last-child {
+    width: 60%;
+    padding: 30px 20px;
+    background-color: #eeeeee;
+}
+
+#serviceSection .innerItem img {
+    width: 100%;
+}
+
+#serviceSection .item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0f2f44;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+#serviceSection .item .overlay>img {
+    margin: 30px;
+}
+
+#serviceSection .item .overlay h3 {
+    padding-bottom: 67px;
+    color: #ffffff;
+}
+
+#serviceSection .item .overlay a {
+    all: initial;
+    background-color: #ffc712;
+    padding: 16px 13px;
+    border-radius: 50%;
+
+}
+
+#serviceSection .item:hover .overlay {
+    display: block;
+
+}
+
+
+/* End Service Section  CSS Styling */
+
+/* Start Portfolio Section CSS styling */
+#portfolioSection {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#portfolioSection .row {
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #fdfdfd;
+
+}
+
+#portfolioSection .sectionHeading {
+    padding-bottom: 61px;
+}
+
+#portfolioSection .item {
+    position: relative;
+    width: calc((100% - 120px) / 3);
+    background-color: #fcfcfc;
+}
+
+#portfolioSection .item .innerItem img {
+    width: 100%;
+    height: 100%;
+}
+
+#portfolioSection .item .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    display: none;
+}
+
+#portfolioSection .item .overlay img {
+    width: 100%;
+}
+
+#portfolioSection .item .overlay .position {
+    position: relative;
+    padding: 0;
+}
+
+#portfolioSection .item .overlay h4 {
+    padding: 30px 0;
+    color: #0f2f44;
+    background-color: #ffffff;
+    box-shadow: -5px 5px 10px 10px #e2e2e2;
+}
+
+#portfolioSection .item .overlay>a {
+    display: inline-block;
+    margin-top: 61px;
+}
+
+#portfolioSection .item .overlay .right {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 5px #e4e4e4;
+}
+
+#portfolioSection .item .overlay .left {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: -10px 10px 10px 5px #e4e4e4;
+}
+
+#portfolioSection .item:hover .overlay {
+    display: block;
+}
+
+/* End Portfolio Section CSS styling */
+/* End Main Section */
